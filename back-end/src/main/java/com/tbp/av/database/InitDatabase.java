@@ -12,8 +12,8 @@ public class InitDatabase {
 
     @Autowired
     public InitDatabase(UserService userService) {
-        userService.create("admin", "admin", "USER");
-        userService.create("tomcat", "tomcat", "USER");
+//        userService.create("admin", "admin", "USER");
+//        userService.create("tomcat", "tomcat", "USER");
     }
 
 
